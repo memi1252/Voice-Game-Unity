@@ -95,11 +95,11 @@ public class PlayerController : MonoBehaviour
             }
             else if (rmsValue >= 20 && rmsValue < 30)
             {
-                transform.position += new Vector3(0, 0.11f, 0);
+                transform.position += new Vector3(0, 0.09f, 0);
             }
             else if (rmsValue >= 30)
             {
-                transform.position += new Vector3(0, 0.14f, 0);
+                transform.position += new Vector3(0, 0.12f, 0);
             }
         }
     }
