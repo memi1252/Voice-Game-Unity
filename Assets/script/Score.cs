@@ -35,7 +35,5 @@ public class Score : MonoBehaviour
         {
             PlayerPrefs.SetInt("BestScore", score);
         }
-        
-        Debug.Log(score);
     }
 }

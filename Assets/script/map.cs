@@ -15,7 +15,7 @@ public class map : MonoBehaviour
         spawnTime -= Time.deltaTime;
         if (spawnTime <=0)
         {
-            float range = Random.Range(10f, 12f);
+            float range = Random.Range(11f, 12f);
             int landMap = Random.Range(0, 3);
             spawnTime = 0.5f;
             Instantiate(land[landMap], landPos, land[landMap].transform.rotation);

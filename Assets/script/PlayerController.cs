@@ -87,19 +87,19 @@ public class PlayerController : MonoBehaviour
         {
             if (rmsValue >= 3 && rmsValue < 10)
             {
-                transform.position += new Vector3(0, 0.12f, 0);
+                transform.position += new Vector3(0, 0.04f, 0);
             }
             else if (rmsValue >= 10 && rmsValue < 20)
             {
-                transform.position += new Vector3(0, 0.4f, 0);
+                transform.position += new Vector3(0, 0.06f, 0);
             }
             else if (rmsValue >= 20 && rmsValue < 30)
             {
-                transform.position += new Vector3(0, 0.6f, 0);
+                transform.position += new Vector3(0, 0.11f, 0);
             }
             else if (rmsValue >= 30)
             {
-                transform.position += new Vector3(0, rmsValue / 58f, 0);
+                transform.position += new Vector3(0, 0.14f, 0);
             }
         }
     }
