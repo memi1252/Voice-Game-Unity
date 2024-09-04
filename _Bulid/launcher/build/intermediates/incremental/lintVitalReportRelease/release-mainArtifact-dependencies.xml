@@ -1,0 +1,17 @@
+<dependencies>
+  <compile
+      roots="E:\project\Voice game\_Bulid@@:unityLibrary::release">
+    <dependency
+        name="E:\project\Voice game\_Bulid@@:unityLibrary::release"
+        simpleName="_Bulid:unityLibrary"/>
+  </compile>
+  <package
+      roots="E:\project\Voice game\_Bulid@@:unityLibrary::release,__local_aars__:E:\project\Voice game\_Bulid\unityLibrary\libs\unity-classes.jar:unspecified@jar">
+    <dependency
+        name="E:\project\Voice game\_Bulid@@:unityLibrary::release"
+        simpleName="_Bulid:unityLibrary"/>
+    <dependency
+        name="__local_aars__:E:\project\Voice game\_Bulid\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+        simpleName="__local_aars__:E:\project\Voice game\_Bulid\unityLibrary\libs\unity-classes.jar"/>
+  </package>
+</dependencies>

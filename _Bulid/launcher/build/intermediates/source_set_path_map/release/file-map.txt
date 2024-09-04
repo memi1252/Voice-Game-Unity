@@ -1,0 +1,9 @@
+com.DefaultCompany.Voicegame.launcher-pngs-0 E:\project\Voice game\_Bulid\launcher\build\generated\res\pngs\release
+com.DefaultCompany.Voicegame.launcher-resValues-1 E:\project\Voice game\_Bulid\launcher\build\generated\res\resValues\release
+com.DefaultCompany.Voicegame.launcher-rs-2 E:\project\Voice game\_Bulid\launcher\build\generated\res\rs\release
+com.DefaultCompany.Voicegame.launcher-mergeReleaseResources-3 E:\project\Voice game\_Bulid\launcher\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.DefaultCompany.Voicegame.launcher-mergeReleaseResources-4 E:\project\Voice game\_Bulid\launcher\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.DefaultCompany.Voicegame.launcher-merged_res-5 E:\project\Voice game\_Bulid\launcher\build\intermediates\merged_res\release
+com.DefaultCompany.Voicegame.launcher-main-6 E:\project\Voice game\_Bulid\launcher\src\main\res
+com.DefaultCompany.Voicegame.launcher-release-7 E:\project\Voice game\_Bulid\launcher\src\release\res
+com.DefaultCompany.Voicegame.launcher-packaged_res-8 E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\packaged_res\release

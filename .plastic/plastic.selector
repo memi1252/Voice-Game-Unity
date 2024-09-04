@@ -1,0 +1,4 @@
+repository "Voice game@Cicada0125@cloud"
+  path "/"
+    smartbranch "/main"       
+     
