@@ -5,9 +5,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class TutoralEndUI : MonoBehaviour
+public class tutoralEndUI : MonoBehaviour
 {
-    public static TutoralEndUI Instance { get; private set; }
+    public static tutoralEndUI Instance { get; private set; }
     
     
     [SerializeField] private Button mainButton;

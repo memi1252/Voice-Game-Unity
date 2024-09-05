@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tutoral2UI : MonoBehaviour
+public class tutoral2UI : MonoBehaviour
 {
-    public static Tutoral2UI Instance { get; private set; }
+    public static tutoral2UI Instance { get; private set; }
     
     private void Awake()
     {
