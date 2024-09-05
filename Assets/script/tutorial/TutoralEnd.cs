@@ -9,8 +9,8 @@ public class TutoralEnd : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
+        tutoralEndUI.Instance.Show();
         Time.timeScale = 0;
-        TutoralEndUI.Instance.Show();
         PlayerController.Instance.IsLive = false;
     }
 }

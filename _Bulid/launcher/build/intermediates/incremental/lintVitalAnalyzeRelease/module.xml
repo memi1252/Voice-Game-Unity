@@ -1,6 +1,6 @@
 <lint-module
     format="1"
-    dir="E:\project\Voice game\_Bulid\launcher"
+    dir="E:\git\Voice Game\Voice-Game\_Bulid\launcher"
     name=":launcher"
     type="APP"
     maven="_Bulid:launcher:"

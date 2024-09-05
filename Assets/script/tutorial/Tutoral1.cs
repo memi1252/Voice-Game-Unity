@@ -6,24 +6,19 @@ using UnityEngine;
 
 public class Tutoral1 : MonoBehaviour
 {
-    private void Start()
-    {
-        PlayerController.Instance.IsLive = false;
-    }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
-        PlayerController.Instance.IsLive = true;
         Time.timeScale = 0;
-        Tutoral1UI.Instance.Show();
+        tutoral1UI.Instance.Show();
+        PlayerController.Instance.IsLive = true;
     }
 
     private void Update()
     {
-        if (PlayerController.Instance.rmsValue >= 3)
+        if (PlayerController.Instance.rmsValue >= 1)
         {
             Time.timeScale = 1;
-            Tutoral1UI.Instance.Hide();
+            tutoral1UI.Instance.Hide();
         }
     }
 }

@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 333273048191648193}
   - component: {fileID: 7246434411909499957}
-  - component: {fileID: 6148177819189800423}
   - component: {fileID: 533927508898120561}
+  - component: {fileID: 870636360776594105}
   m_Layer: 0
   m_Name: weasel
   m_TagString: Untagged
@@ -86,8 +86,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &6148177819189800423
-BoxCollider2D:
+--- !u!114 &533927508898120561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6380968316345884652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49f999844e040c499c009f16dcd7a4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!68 &870636360776594105
+EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -118,28 +130,24 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.025736094, y: 0.034981847}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.47, y: 3.47}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.5214725, y: 2.3505719}
+  m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
---- !u!114 &533927508898120561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6380968316345884652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c49f999844e040c499c009f16dcd7a4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Points:
+  - {x: -0.81378764, y: -1.1697941}
+  - {x: -0.9952923, y: -1.0292646}
+  - {x: -0.8498946, y: -0.7992571}
+  - {x: -1.1010425, y: -0.42779237}
+  - {x: -1.4326726, y: 0.40900615}
+  - {x: -1.7119827, y: 0.4702739}
+  - {x: -1.8185754, y: 0.80681974}
+  - {x: -1.2680871, y: 1.2648392}
+  - {x: -0.8958219, y: 1.1079786}
+  - {x: -0.5761533, y: 0.50732994}
+  - {x: -0.08073902, y: 0.38395628}
+  - {x: 0.58604974, y: 0.3535933}
+  - {x: 1.2443573, y: -0.045243315}
+  - {x: 1.8446681, y: -1.0235698}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0

@@ -1,4 +1,4 @@
-#Tue Sep 03 19:33:21 KST 2024
-base.0=E\:\\project\\Voice game\\_Bulid\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+#Thu Sep 05 16:34:52 KST 2024
+base.0=E\:\\git\\Voice Game\\Voice-Game\\_Bulid\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

@@ -1,159 +1,159 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.DefaultCompany.Voicegame"
+3    package="com.Cicada.Voicegame"
 4    android:installLocation="preferExternal"
 5    android:versionCode="1"
 6    android:versionName="1.0" >
 7
 8    <uses-sdk
 9        android:minSdkVersion="22"
-9-->E:\project\Voice game\_Bulid\launcher\src\main\AndroidManifest.xml
+9-->E:\git\Voice Game\Voice-Game\_Bulid\launcher\src\main\AndroidManifest.xml
 10        android:targetSdkVersion="34" />
-10-->E:\project\Voice game\_Bulid\launcher\src\main\AndroidManifest.xml
+10-->E:\git\Voice Game\Voice-Game\_Bulid\launcher\src\main\AndroidManifest.xml
 11
 12    <supports-screens
-12-->E:\project\Voice game\_Bulid\launcher\src\main\AndroidManifest.xml:4:3-163
+12-->E:\git\Voice Game\Voice-Game\_Bulid\launcher\src\main\AndroidManifest.xml:4:3-163
 13        android:anyDensity="true"
-13-->E:\project\Voice game\_Bulid\launcher\src\main\AndroidManifest.xml:4:135-160
+13-->E:\git\Voice Game\Voice-Game\_Bulid\launcher\src\main\AndroidManifest.xml:4:135-160
 14        android:largeScreens="true"
-14-->E:\project\Voice game\_Bulid\launcher\src\main\AndroidManifest.xml:4:78-105
+14-->E:\git\Voice Game\Voice-Game\_Bulid\launcher\src\main\AndroidManifest.xml:4:78-105
 15        android:normalScreens="true"
-15-->E:\project\Voice game\_Bulid\launcher\src\main\AndroidManifest.xml:4:49-77
+15-->E:\git\Voice Game\Voice-Game\_Bulid\launcher\src\main\AndroidManifest.xml:4:49-77
 16        android:smallScreens="true"
-16-->E:\project\Voice game\_Bulid\launcher\src\main\AndroidManifest.xml:4:21-48
+16-->E:\git\Voice Game\Voice-Game\_Bulid\launcher\src\main\AndroidManifest.xml:4:21-48
 17        android:xlargeScreens="true" />
-17-->E:\project\Voice game\_Bulid\launcher\src\main\AndroidManifest.xml:4:106-134
+17-->E:\git\Voice Game\Voice-Game\_Bulid\launcher\src\main\AndroidManifest.xml:4:106-134
 18
 19    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-19-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-71
-19-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:22-68
+19-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-71
+19-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:22-68
 20    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-20-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-80
-20-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-77
+20-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-80
+20-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-77
 21    <uses-permission android:name="android.permission.BLUETOOTH" />
-21-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-68
-21-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-65
+21-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-68
+21-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-65
 22
 23    <uses-feature android:glEsVersion="0x00030000" />
-23-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-54
-23-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:19-51
+23-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:5-54
+23-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:19-51
 24    <uses-feature
-24-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-15:36
+24-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:5-15:36
 25        android:name="android.hardware.vulkan.version"
-25-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-55
+25-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-55
 26        android:required="false" />
-26-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-33
+26-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-33
 27    <uses-feature
-27-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:5-18:36
+27-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:5-18:36
 28        android:name="android.hardware.microphone"
-28-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:9-51
+28-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:9-51
 29        android:required="false" />
-29-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-33
+29-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-33
 30    <uses-feature
-30-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:5-21:36
+30-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:5-21:36
 31        android:name="android.hardware.touchscreen"
-31-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-52
+31-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-52
 32        android:required="false" />
-32-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-33
+32-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-33
 33    <uses-feature
-33-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:5-24:36
+33-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:5-24:36
 34        android:name="android.hardware.touchscreen.multitouch"
-34-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:9-63
+34-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:9-63
 35        android:required="false" />
-35-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-33
+35-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-33
 36    <uses-feature
-36-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:5-27:36
+36-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:5-27:36
 37        android:name="android.hardware.touchscreen.multitouch.distinct"
-37-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:9-72
+37-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:9-72
 38        android:required="false" />
-38-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:9-33
+38-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:9-33
 39
 40    <application
-40-->E:\project\Voice game\_Bulid\launcher\src\main\AndroidManifest.xml:3:3-83
+40-->E:\git\Voice Game\Voice-Game\_Bulid\launcher\src\main\AndroidManifest.xml:3:3-83
 41        android:extractNativeLibs="true"
-41-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:18-50
+41-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:18-50
 42        android:icon="@mipmap/app_icon"
-42-->E:\project\Voice game\_Bulid\launcher\src\main\AndroidManifest.xml:3:49-80
+42-->E:\git\Voice Game\Voice-Game\_Bulid\launcher\src\main\AndroidManifest.xml:3:49-80
 43        android:label="@string/app_name" >
-43-->E:\project\Voice game\_Bulid\launcher\src\main\AndroidManifest.xml:3:16-48
+43-->E:\git\Voice Game\Voice-Game\_Bulid\launcher\src\main\AndroidManifest.xml:3:16-48
 44        <meta-data
-44-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:9-32:33
+44-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:9-32:33
 45            android:name="unity.splash-mode"
-45-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-45
+45-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-45
 46            android:value="0" />
-46-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-30
+46-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-30
 47        <meta-data
-47-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:9-35:36
+47-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:9-35:36
 48            android:name="unity.splash-enable"
-48-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:13-47
+48-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:13-47
 49            android:value="True" />
-49-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-33
+49-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-33
 50        <meta-data
-50-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:9-38:36
+50-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:9-38:36
 51            android:name="unity.launch-fullscreen"
-51-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-51
+51-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-51
 52            android:value="True" />
-52-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-33
+52-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-33
 53        <meta-data
-53-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:9-41:36
+53-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:9-41:36
 54            android:name="unity.render-outside-safearea"
-54-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:13-57
+54-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:13-57
 55            android:value="True" />
-55-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-33
+55-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-33
 56        <meta-data
-56-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:9-44:50
+56-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:9-44:50
 57            android:name="notch.config"
-57-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-40
+57-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-40
 58            android:value="portrait|landscape" />
-58-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-47
+58-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-47
 59        <meta-data
-59-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:9-47:36
+59-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:45:9-47:36
 60            android:name="unity.auto-report-fully-drawn"
-60-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-57
+60-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:13-57
 61            android:value="true" />
-61-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-33
+61-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-33
 62
 63        <activity
-63-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:9-70:20
+63-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:9-70:20
 64            android:name="com.unity3d.player.UnityPlayerActivity"
-64-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:13-66
+64-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:13-66
 65            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-65-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:51:13-194
+65-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:51:13-194
 66            android:exported="true"
-66-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:13-36
+66-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:13-36
 67            android:hardwareAccelerated="false"
-67-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:13-48
+67-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:13-48
 68            android:launchMode="singleTask"
-68-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:13-44
+68-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:13-44
 69            android:resizeableActivity="false"
-69-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:55:13-47
+69-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:55:13-47
 70            android:screenOrientation="fullUser"
-70-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:13-49
+70-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:13-49
 71            android:theme="@style/UnityThemeSelector" >
-71-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:57:13-54
+71-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:57:13-54
 72            <intent-filter>
-72-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:58:13-62:29
+72-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:58:13-62:29
 73                <category android:name="android.intent.category.LAUNCHER" />
-73-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:17-77
-73-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:27-74
+73-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:17-77
+73-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:59:27-74
 74
 75                <action android:name="android.intent.action.MAIN" />
-75-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:17-69
-75-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:25-66
+75-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:17-69
+75-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:61:25-66
 76            </intent-filter>
 77
 78            <meta-data
-78-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:13-66:40
+78-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:13-66:40
 79                android:name="unityplayer.UnityActivity"
-79-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:65:17-57
+79-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:65:17-57
 80                android:value="true" />
-80-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:66:17-37
+80-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:66:17-37
 81            <meta-data
-81-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:67:13-69:40
+81-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:67:13-69:40
 82                android:name="notch_support"
-82-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:68:17-45
+82-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:68:17-45
 83                android:value="true" />
-83-->[:unityLibrary] E:\project\Voice game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:69:17-37
+83-->[:unityLibrary] E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:69:17-37
 84        </activity>
 85    </application>
 86

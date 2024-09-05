@@ -5,7 +5,7 @@ public class map : MonoBehaviour
 {
     [SerializeField] private GameObject[] land;
     [SerializeField] private GameObject[] backGround;
-    private Vector3 landPos = new Vector3(11.5f, -5.03f, 0);
+    private Vector3 landPos = new Vector3(13f, -5.03f, 0);
     private Vector3 backGroundPos = new Vector3(14, 0,0);
     private float spawnTime = 0.3f;
     private float backGroundSpawnTime = 0.3f;
@@ -15,7 +15,7 @@ public class map : MonoBehaviour
         spawnTime -= Time.deltaTime;
         if (spawnTime <=0)
         {
-            float range = Random.Range(10f, 11f);
+            float range = Random.Range(12f, 13f);
             int landMap = Random.Range(0, 3);
             spawnTime = 0.5f;
             Instantiate(land[landMap], landPos, land[landMap].transform.rotation);

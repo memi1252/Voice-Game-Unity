@@ -1,17 +1,17 @@
 <dependencies>
   <compile
-      roots="E:\project\Voice game\_Bulid@@:unityLibrary::release">
+      roots="E:\git\Voice Game\Voice-Game\_Bulid@@:unityLibrary::release">
     <dependency
-        name="E:\project\Voice game\_Bulid@@:unityLibrary::release"
+        name="E:\git\Voice Game\Voice-Game\_Bulid@@:unityLibrary::release"
         simpleName="_Bulid:unityLibrary"/>
   </compile>
   <package
-      roots="E:\project\Voice game\_Bulid@@:unityLibrary::release,__local_aars__:E:\project\Voice game\_Bulid\unityLibrary\libs\unity-classes.jar:unspecified@jar">
+      roots="E:\git\Voice Game\Voice-Game\_Bulid@@:unityLibrary::release,__local_aars__:E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\libs\unity-classes.jar:unspecified@jar">
     <dependency
-        name="E:\project\Voice game\_Bulid@@:unityLibrary::release"
+        name="E:\git\Voice Game\Voice-Game\_Bulid@@:unityLibrary::release"
         simpleName="_Bulid:unityLibrary"/>
     <dependency
-        name="__local_aars__:E:\project\Voice game\_Bulid\unityLibrary\libs\unity-classes.jar:unspecified@jar"
-        simpleName="__local_aars__:E:\project\Voice game\_Bulid\unityLibrary\libs\unity-classes.jar"/>
+        name="__local_aars__:E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+        simpleName="__local_aars__:E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\libs\unity-classes.jar"/>
   </package>
 </dependencies>

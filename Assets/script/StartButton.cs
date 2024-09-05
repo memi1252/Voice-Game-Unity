@@ -8,6 +8,8 @@ public class StartButton : MonoBehaviour
 
    private void Awake()
    {
+      Time.timeScale = 1;
+      
       temporaryPlayerButton.onClick.AddListener(() =>
       {
          SceneManager.LoadScene("select");

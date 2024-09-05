@@ -480,6 +480,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1095791986}
   - component: {fileID: 1095791987}
+  - component: {fileID: 1095791988}
   m_Layer: 5
   m_Name: select
   m_TagString: Untagged
@@ -522,6 +523,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tutorialButton: {fileID: 1782233840}
   playingButton: {fileID: 1238869150}
+--- !u!222 &1095791988
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095791985}
+  m_CullTransparentMesh: 1
 --- !u!1 &1238869148
 GameObject:
   m_ObjectHideFlags: 0

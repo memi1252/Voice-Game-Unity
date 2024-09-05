@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
     {
         Time.timeScale = 1;
 
-        IsLive = true;
+        IsLive = false;
 
         Instance = this;
         
@@ -85,21 +85,15 @@ public class PlayerController : MonoBehaviour
     {
         if (IsLive)
         {
-            if (rmsValue >= 3 && rmsValue < 10)
+            if (rmsValue >= 3 && rmsValue < 7)
             {
-                transform.position += new Vector3(0, 0.04f, 0);
+                transform.Translate(Vector3.up *Time.deltaTime * 8f);
+                rmsValue = 0;
             }
-            else if (rmsValue >= 10 && rmsValue < 20)
+            else if (rmsValue >= 7 && rmsValue < 10)
             {
-                transform.position += new Vector3(0, 0.06f, 0);
-            }
-            else if (rmsValue >= 20 && rmsValue < 30)
-            {
-                transform.position += new Vector3(0, 0.09f, 0);
-            }
-            else if (rmsValue >= 30)
-            {
-                transform.position += new Vector3(0, 0.12f, 0);
+                transform.Translate(Vector3.up *Time.deltaTime * 12f);
+                rmsValue = 0;
             }
         }
     }

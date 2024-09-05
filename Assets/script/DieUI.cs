@@ -17,7 +17,6 @@ public class DieUI : MonoBehaviour
         RePlayerButton.onClick.AddListener(() =>
         {
             SceneManager.LoadScene("MainMenuScene");
-            Debug.Log("ㅇㅇㅇ");
         });
     }
 

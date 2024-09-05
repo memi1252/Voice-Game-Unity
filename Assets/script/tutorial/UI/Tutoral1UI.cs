@@ -1,12 +1,9 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.ShaderGraph.Serialization;
 using UnityEngine;
 
-public class Tutoral1UI : MonoBehaviour
+public class tutoral1UI : MonoBehaviour
 {
-    public static Tutoral1UI Instance { get; private set; }
+    public static tutoral1UI Instance { get; private set; }
     
     private void Awake()
     {

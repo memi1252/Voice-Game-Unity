@@ -7,15 +7,15 @@ public class Tutoral2 : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         Time.timeScale = 0;
-        Tutoral2UI.Instance.Show();
+        tutoral2UI.Instance.Show();
     }
 
     private void Update()
     {
-        if (PlayerController.Instance.rmsValue >= 3)
+        if (PlayerController.Instance.rmsValue >= 1)
         {
-            //ime.timeScale = 1;
-            Tutoral2UI.Instance.Hide();
+            Time.timeScale = 1;
+            tutoral2UI.Instance.Hide();
         }
     }
 }

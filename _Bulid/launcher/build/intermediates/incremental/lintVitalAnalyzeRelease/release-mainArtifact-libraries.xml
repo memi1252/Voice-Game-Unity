@@ -1,9 +1,9 @@
 <libraries>
   <library
-      name="E:\project\Voice game\_Bulid@@:unityLibrary::release"
-      jars="E:\project\Voice game\_Bulid\unityLibrary\build\.transforms\61c97a2ac868c9c4b04fe1064c1a6ebd\transformed\out\jars\classes.jar;E:\project\Voice game\_Bulid\unityLibrary\build\.transforms\61c97a2ac868c9c4b04fe1064c1a6ebd\transformed\out\jars\libs\R.jar;E:\project\Voice game\_Bulid\unityLibrary\build\.transforms\61c97a2ac868c9c4b04fe1064c1a6ebd\transformed\out\jars\libs\unity-classes.jar"
+      name="E:\git\Voice Game\Voice-Game\_Bulid@@:unityLibrary::release"
+      jars="E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\.transforms\e4e42dedf7aaa7b6bd03cb0f71698693\transformed\out\jars\classes.jar;E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\.transforms\e4e42dedf7aaa7b6bd03cb0f71698693\transformed\out\jars\libs\R.jar;E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\.transforms\e4e42dedf7aaa7b6bd03cb0f71698693\transformed\out\jars\libs\unity-classes.jar"
       resolved="_Bulid:unityLibrary:unspecified"
-      folder="E:\project\Voice game\_Bulid\unityLibrary\build\.transforms\61c97a2ac868c9c4b04fe1064c1a6ebd\transformed\out"
+      folder="E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\build\.transforms\e4e42dedf7aaa7b6bd03cb0f71698693\transformed\out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -13,7 +13,7 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="__local_aars__:E:\project\Voice game\_Bulid\unityLibrary\libs\unity-classes.jar:unspecified@jar"
-      jars="E:\project\Voice game\_Bulid\unityLibrary\libs\unity-classes.jar"
-      resolved="__local_aars__:E:\project\Voice game\_Bulid\unityLibrary\libs\unity-classes.jar:unspecified"/>
+      name="__local_aars__:E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+      jars="E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\libs\unity-classes.jar"
+      resolved="__local_aars__:E:\git\Voice Game\Voice-Game\_Bulid\unityLibrary\libs\unity-classes.jar:unspecified"/>
 </libraries>
