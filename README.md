@@ -31,6 +31,5 @@
 
 ## ⚙️ 설치 및 실행
 
-1. 다운로드 파일
-   ```bash
+1. 다운로드 링크
     https://github.com/memi1252/Voice-Game-Unity/releases/tag/apk
