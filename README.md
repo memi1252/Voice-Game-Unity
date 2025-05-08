@@ -31,6 +31,6 @@
 
 ## ⚙️ 설치 및 실행
 
-1. 이 저장소를 클론합니다:
+1. 다운로드 파일
    ```bash
-   git clone https://github.com/memi1252/Voice-Game-Unity.git
+    https://github.com/memi1252/Voice-Game-Unity/releases/tag/apk
